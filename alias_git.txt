@@ -8,11 +8,8 @@
     bd = branch -d
     bD = branch -D
     dc = diff --cached
-
-    
     st = status -sb
     a = add -p
-
     
     plog = log --graph --pretty='format:%C(red)%d%C(reset) %C(yellow)%h%C(reset) %ar %C(green)%aN%C(reset) %s'
     tlog = log --stat --since='1 Day Ago' --graph --pretty=oneline --abbrev-commit --date=relative
